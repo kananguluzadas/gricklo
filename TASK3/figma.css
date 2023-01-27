@@ -1,0 +1,132 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* a{
+    text-decoration: none;
+}
+
+* li{
+    list-style-type: none;
+}
+body{
+    background-color: rgb(30, 0, 30);
+}
+/* header */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav {
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+ nav ul li{
+    margin-left: 95px;
+    
+ }
+ nav ul li a{
+    color: aliceblue;
+    font-family: 'Catamaran', sans-serif;
+ }
+
+ nav input{
+    margin-left: 95px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid aliceblue;
+    font-size: 17px;
+    font-family: 'Catamaran', sans-serif;
+    margin-top: -10px;
+ }
+
+ nav i{
+    color: rgb(30, 0, 30);
+    margin: 5px 0 0 -42px;
+    font-size: 19px;
+ }
+
+ .header .container{
+    padding: 0 56px;
+
+ }
+ .three-name{
+color: rgb(110, 112, 115);
+font-family: 'Catamaran', sans-serif;
+display: flex;
+margin-left: 56px;
+margin-top: 79.2px;
+font-size: 22px;
+ }
+
+ .three-name p{
+    margin-right: 6px;
+ }
+
+ .proq{
+    font-size: 5.8rem;
+    font-family: 'Catamaran', sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    margin-left: 56px;
+ }
+
+ .proq img{
+    object-fit: cover;
+    margin-top: -60px;
+    float:right;
+    margin-right: 56px;
+    position: absolute;
+    z-index: -1;;
+    top: 526px;
+    right: 0px;
+ }
+
+ .sections{
+    display: flex;
+    
+    margin-top: 85px;
+ }
+
+ .section-item{
+    width: 317px;
+    height: 150px;
+    background-color:  #0DC6FF; 
+    margin-right: 20px;
+ }
+ .section-item2{
+    width: 317px;
+    height: 150px;
+    background-color:  #4AD69C;
+   
+    margin-right: 20px;
+ }
+ .section-item3{
+    width: 317px;
+    height: 150px;
+    background-color: #F8BC61;
+   
+    margin-right: 20px;
+ }
+ .section-item4{
+    width: 317px;
+    height: 150px;
+    background-color:  #FFFFFF;
+   
+    margin-right: 20px;
+ }
+/* header end */
